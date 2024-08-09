@@ -3,7 +3,7 @@
 
 /* Variáveis de estilo */
 :root {
-    --primary-color: #4CAF50;
+    --primary-color: #2a642c;
     --secondary-color: #f4f4f4;
     --text-color: #333;
     --fonte-principal: "Roboto", sans-serif;
@@ -53,7 +53,7 @@ header nav ul li a {
 
 a:hover{
     font-size: 25px;
-    color: green;
+    color: rgb(1, 153, 1);
     transition: 0.4s;
 }
 
@@ -62,38 +62,58 @@ a:hover{
 .fundo{
     background-image: url(../img/fundo-2.webp);
     background-size: cover;
+    background-position: center;
 
 }
 
 #home{
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 100%;
 }
 
 section h2{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 1.4em;
     font-weight: bold;
-    padding: 50 0 10px 45px;
+    padding: 50px 0 10px 45px;
 
 }
 
 #home p{
     font-size: 1.3em;
     font-weight: 300;
-    padding: 40px;
+    padding: 45px 40px;
     text-align: justify;
     text-indent: 2em
+}
+
+
+hr{
+    height: 5px;
+    background-color: var(--primary-color);
 }
 
 .novas-tecnologias{
     text-align: center;
 }
 
+.novas-tecnologias h2{
+    color: black;
+}
+
 section .tecnologias{
     height: 350px;
     width: 500px;
-    margin: 15px;
+    margin: 50px 20px 60px 0;
     
+}
+
+.tecnologias:hover{
+    height: 390px;
+    width: 540px;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .blog-list {
@@ -102,19 +122,6 @@ section .tecnologias{
     justify-content: space-around;
 }
 
-.blog-item {
-    background-color: white;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-}
-
-.blog-item img {
-    width: 100%;
-    height: auto;
-}
 
 footer {
     background-color: var(--primary-color);
