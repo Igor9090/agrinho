@@ -18,3 +18,4 @@ sr.reveal('.novas-tecnologias', {
     delay: 200,
     duraction: 3000}
     );
+
