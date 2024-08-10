@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Variáveis de estilo */
+:root {
+    --primary-color: #2a642c;
+    --secondary-color: #f4f4f4;
+    --text-color: #333;
+    --fonte-principal: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    width: 98vw;
+    height: 100vh;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header h1 {
+    padding-left: 720px;
+    margin: 50px;
+    font-weight: bolder;
+    font-size: 1.6em;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 100px 30px 0 0;
+    font-weight: 700;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: 25px;
+    color: rgb(1, 153, 1);
+    transition: 0.4s;
+}
+
+.sobre-veiculos-agricolas{
+    color: rgb(0, 0, 0); 
+    margin: 50px;
+}
+
+.sobre-veiculos-agricolas img{
+    height: 350px;
+    width: 500px;
+    margin: 50px;
+}
+
+.sobre-veiculos-agricolas p{
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 45px 40px;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.4;
+}
+
+.sobre-veiculos-agricolas h1{
+    text-align: center;
+    font-size: 1.6em;
+    font-size: bold;
+    margin: 50px;
+}
+
+.sobre-veiculos-agricolas h2{
+    font-size: 1.4em;
+    font-size: bold;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.image-container img{
+    height: 450px;
+    width: 850px;
+}
+
+.sobre-item{
+    display:flex
+}
+
+#area-importancia{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(60, 60, 60);
+    color: white;
+}
+
+#area-importancia h2{
+    padding-left: 60px;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+#area-importancia p{
+    margin-top: 150px;
+    font-size: 1.3em;
+}
+
+#img-importancia{
+    margin: 0;
+    padding: 0;
+    width:1200px;
+    height: auto;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+

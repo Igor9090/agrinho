@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-bt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Agricultura Tecnológica</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <header>
         <h1>Agricultura Tecnológica</h1>
-        <nav>
+        <button onclick="toggleMenu()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        <nav id="nav-menu">
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
             </ul>
         </nav>
     </header>
@@ -36,18 +41,17 @@
                 gerenciar pragas. Além disso, inovações em biotecnologia estão gerando cultivares mais resistentes e produtivos. Essas tecnologias não só aumentam a produtividade, 
                 mas também promovem práticas agrícolas mais sustentáveis e ajudam a atender a demanda crescente por alimentos em um mundo em constante mudança.</p>
         </section>
-        <hr>
          </div>
-        <section class="novas-tecnologias">
+        <section class="novas-tecnologias" id="tecnologias">
             <h2>Novas Tecnologias no Campo</h2>
-            <img src="src/img/drone-agricola-pulverizador.jpg" alt="" class="tecnologias">
-            <img src="src/img/gps_agricola.jpg" alt="" class="tecnologias">
-            <img src="src/img/trator.jpg" alt="" class="tecnologias">
+            <a href="drones.html"><img src="src/img/drone-agricola-pulverizador.jpg" alt="" class="tecnologias"></a>
+            <a href="gps.html"><img src="src/img/gps_agricola.jpg" alt="" class="tecnologias"></a>
+            <a href="veiculos.html"><img src="src/img/trator.jpg" alt="" class="tecnologias"></a>
         </section>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Blog de Agricultura Sustentável. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Blog de Agricultura Tecnológica. Todos os direitos reservados.</p>
     </footer>
     <script src="src/js/script.js"></script>
 </body>
