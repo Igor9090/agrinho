@@ -22,6 +22,7 @@
     https://blog.agrointeli.com.br/blog/gps-agricola/ - https://blog.agrointeli.com.br/blog/wp-content/uploads/2020/07/gps_agricola-500x300.jpg;
 
     https://www.terraverdeagro.com.br/page/pt/tratores/s%C3%A9rie-8r-270cv-400cv/8370r/ - https://www.deere.com.br/assets/images/region-3/products/tractors/large/8r-series/8370r/trator_8370r_campo1_large_082af444b417b3939718808b7d1ebf3e647a159e.jpg;
-    
+
+    Drones - https://superimportadora.com.br/drones/drone-agricola/ ;
     
     
