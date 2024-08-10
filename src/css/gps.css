@@ -80,6 +80,10 @@ a:hover{
     line-height: 1.4;
 }
 
+.informacoes-gps ul{
+	list-style: none;
+}
+
 .informacoes-gps ul li p{
     padding: 10px 40px;
 }
